@@ -9,8 +9,16 @@ import WeatherHeader from "./WeatherHeader";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <div className="container app-border">
-      <WeatherHeader />
+    <div className="container">
+      <div className="app-border">
+        <WeatherHeader />
+      </div>
+      <p className="">
+        Coded by {""}
+        <a href="https://github.com/Chantel-Donet">Chantel Donet</a>, to view
+        the code click{" "}
+        <a href="https://github.com/Chantel-Donet/react-weather-app"> here</a>{" "}
+      </p>
     </div>
   </React.StrictMode>
 );
