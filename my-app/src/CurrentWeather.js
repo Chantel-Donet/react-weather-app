@@ -15,7 +15,7 @@ export default function CurrentWeather() {
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
             alt="Cloudy"
-            className="float-left mx-auto"
+            className="float-left"
           />
 
           <p className="temperature float-left">
