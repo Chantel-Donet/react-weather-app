@@ -10,8 +10,14 @@ li {
 img {
   max-width: 100%;
   height: auto;
+  position: relative;
+  top: -16px;
 }
 
+.CurrentWeather {
+  padding-left: 18px;
+  padding-top: 10px;
+}
 .temperature {
   font-size: 60px;
   font-weight: 500;
@@ -22,6 +28,6 @@ img {
   position: relative;
   top: -34px;
 }
-.CurrentWeather {
+.weather-conditions {
   padding-top: 10px;
 }

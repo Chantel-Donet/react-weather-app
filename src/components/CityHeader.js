@@ -1,4 +1,5 @@
 import React from "react";
+import "./CityHeader.css";
 
 export default function City() {
   let cityInformation = {

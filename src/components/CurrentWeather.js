@@ -24,7 +24,7 @@ export default function CurrentWeather() {
           </p>
         </div>
 
-        <div className="col-6">
+        <div className="col-6 weather-conditions">
           <ul>
             <li>Humidity: {currentConditions.humidity}% </li>
             <li>Wind: {currentConditions.wind}km/h </li>
